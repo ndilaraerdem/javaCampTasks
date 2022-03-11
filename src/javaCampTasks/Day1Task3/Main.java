@@ -2,6 +2,11 @@ package javaCampTasks.Day1Task3;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        Aşağıdaki oynatma listesinde 5-23 arasındaki dersleri izleyiniz ve uygulayınız. (5,23 Dahil)
+
+        https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6
+*/
         //HELLO WORLD
         System.out.println("----------HELLO WORLD----------------");
         System.out.println("Hello World");
