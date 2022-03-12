@@ -16,7 +16,5 @@ public class StudentManager extends UserManager {
     public void update(User user) {
         super.update(user);
     }
-    public void getCourse(Student student){
-        System.out.println(student.getOwnedCourse() + "Kursu alındı.");
     }
-}
+

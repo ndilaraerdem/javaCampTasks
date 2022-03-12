@@ -15,7 +15,5 @@ public class InstructorManager extends UserManager{
     public void update(User user) {
         super.update(user);
     }
-    public void addCourse(Instructor instructor){
-        System.out.println(instructor.getGivenCourse() +" Kursu Eklendi.");
-    }
+
 }

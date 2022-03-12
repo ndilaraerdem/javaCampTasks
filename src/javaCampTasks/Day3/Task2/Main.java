@@ -9,8 +9,7 @@ UserManager userManager = new UserManager();
 StudentManager studentManager = new StudentManager();
 InstructorManager instructorManager = new InstructorManager();
 userManager.add(user1);
-studentManager.getCourse(user2);
-instructorManager.addCourse(user3);
+
 
     }
     }
