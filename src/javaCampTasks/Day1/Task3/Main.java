@@ -1,4 +1,4 @@
-package javaCampTasks.Day1Task3;
+package javaCampTasks.Day1.Task3;
 
 public class Main {
     public static void main(String[] args) {
