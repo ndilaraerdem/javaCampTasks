@@ -13,5 +13,7 @@ public class Main {
         BaseCustomerManager baseCustomerManager1 = new StarbucksCustomerManager(new CustomerCheckManager());
         baseCustomerManager1.save(new Customer(1,"Alara","Erdem","1998","2929929292922"));
 
+
+
     }
 }
