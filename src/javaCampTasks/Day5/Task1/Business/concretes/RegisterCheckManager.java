@@ -51,7 +51,7 @@ public class RegisterCheckManager implements RegisterCheckService {
 
     @Override
     public boolean checkPassword(Customer customer) {
-        if (customer.getPassword() == null || customer.getPassword().length() < 6){
+        if (customer.getPassword().isEmpty() || customer.getPassword().length() < 6){
             System.out.println("Şifreniz en az 6 haneli olmalıdır!");
             flag=false;
         }
@@ -60,9 +60,6 @@ public class RegisterCheckManager implements RegisterCheckService {
 
     @Override
     public boolean check(Customer customer) {
-        if (checkName(customer) && checkEmail(customer) && checkPassword(customer)) {
-            return true;
-        }
-        return false;
+        return checkName(customer) && checkEmail(customer) && checkPassword(customer);
     }
 }
